@@ -10,7 +10,7 @@ import { BlockView } from "./components/BlockView";
 import { Flashcards, Quiz } from "./components/Quiz";
 import { quizBank } from "./data/quiz";
 import { PrintDoc } from "./components/PrintDoc";
-import hero from "./assets/hero.png";
+import hero from "./assets/hero.jpg";
 
 const units: Unit[] = [unit1, unit2, unit3, unit4, unit5];
 const TOTAL_TOPICS = units.reduce((a, u) => a + u.topics.length, 0);
